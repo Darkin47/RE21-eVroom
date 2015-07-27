@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Evroom</string>
+    <string name="action_settings">Settings</string>
+
+    //screen hello
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    //screen creat
+    <string name="welcome">Welcome to Evroom</string>
+    <string name="title_name">Evroom</string>
+    <string name="message_name">success!</string>
+    <string name="btn1_name">OK</string>
+
+//screen event_list
+    <string name="title_name1">Eventlist</string>
+    <string name="contenu_event1">Gala UTT 2015 \n Monday 20h \n UTT, Troyes \n \n 200 participants</string>
+    <string name="contenu_event2">English Night \n Monday 23 à 19h \n UTT,, 8 rue Champ... \n \n 13 participants</string>
+
+//screen content_event
+    <string name="title_name2">Gala UTT</string>
+    <string name="menu">Liste des participants &#160;&#160;&#160;-&#062;</string>
+    <string name="button">Rejoindre</string>
+
+//screen friends
+    <string name="title_name3">Friends</string>
+
+//screen map
+    <string name="title_name4">Map</string>
+
+//screen car
+    <string name="title_name5">Transport</string>
+
+//screen listpar
+    <string name="title_name6">Liste de participants</string>
+
+//screen content_car
+    <string name="time">Today-17:00</string>
+    <string name="content">je propose 3 places \n
+seulement fille \n
+............... \n
+................. \n
+.................. \n
+........................ \n
+............................ \n
+ </string>
+
+    <string name="message_name1">success.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_chat">put in your msg....</string>
+    <string name="Bonjour">Bonjour!</string>
+    <string name="parole">Je voudrais demander un covoiturage pour  aller au gala!</string>
+
+
+
+
+
+
+</resources>

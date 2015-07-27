@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout_button">
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/eventButton"
+            android:src="@drawable/event"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/chatButton"
+            android:src="@drawable/message"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/mapButton"
+            android:src="@drawable/map"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/carButton"
+            android:src="@drawable/car"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:clickable="true" />
+</LinearLayout>

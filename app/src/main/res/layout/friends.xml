@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/frangmentfr">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friends1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/laia"
+                android:id="@+id/imageView2" />
+            <Button style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:padding="0dp"
+                android:layout_height="66dp"
+                android:text="Laia Huntsman"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/laia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/friends1"
+            android:id="@+id/friends2"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/julien"
+                 />
+            <Button style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:padding="0dp"
+                android:layout_height="66dp"
+                android:text="Julien Grave"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/julien"
+                android:layout_weight="0.11" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/friends2"
+            android:id="@+id/friends3"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/pikachu"
+                />
+            <Button style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:padding="0dp"
+                android:layout_height="66dp"
+                android:text="Wentong Wang"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/pikachu"
+                android:layout_weight="0.11" />
+    </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friends3"
+                android:id="@+id/friends4"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/touxiang"
+                    />
+                <Button style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:layout_height="66dp"
+                    android:text="Friend1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Friend1"
+                    android:layout_weight="0.11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friends4"
+                android:id="@+id/friends5"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/touxiang"
+                    />
+                <Button style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:layout_height="66dp"
+                    android:text="Friend2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Friend2"
+                    android:layout_weight="0.11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friends5"
+                android:id="@+id/friends6"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/touxiang"
+                    />
+                <Button style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:layout_height="66dp"
+                    android:text="Friend3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Friend3"
+                    android:layout_weight="0.11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friends6"
+                android:id="@+id/friends7"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/touxiang"
+                    />
+                <Button style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:layout_height="66dp"
+                    android:text="Friend4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Friend4"
+                    android:layout_weight="0.11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friends7"
+                android:id="@+id/friends8"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/touxiang"
+                    />
+                <Button style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:layout_height="66dp"
+                    android:text="Friend5"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Friend5"
+                    android:layout_weight="0.11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friends8"
+                android:id="@+id/friends9"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/touxiang"
+                    />
+                <Button style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:layout_height="66dp"
+                    android:text="Friend6"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Friend6"
+                    android:layout_weight="0.11" />
+            </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.administrator.myapplication.MenuFragment"
+            tools:layout="@layout/main_menu"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/frangmentfr"/>
+</RelativeLayout>
+

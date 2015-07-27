@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activityBackground">#f4f4f3</color>
+
+    <color name="color_red">#ff705e</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_green">#6ed288</color>
+    <color name="color_green_pressed">#4ab265</color>
+    <color name="color_black">#000000</color>
+    <color name="color_black1">#666666</color>
+    <color name="color_black2">#333333</color>
+    <color name="color_gray">#aaaaaa</color>
+    <color name="color_gray1">#cbcccd</color>
+    <color name="color_orange">#feb96a</color>
+    <color name="color_bottom">#f4fafafa</color>
+
+    <color name="color_line">#e7e7e7</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_write">#f4ffffff</color>
+    <color name="transparent_black">#f4707070</color>
+    <color name="transparent_black1">#88000000</color>
+    <color name="transparent_red">#99FE91A8</color>
+
+    <color name="bg_image_default">#f5f0eb</color>
+    <color name="photo_view_bg">#22211e</color>
+
+</resources>

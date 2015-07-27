@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="#2BC4AF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:id="@+id/chat">
+
+        <TextView
+            android:id="@+id/tv_content1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg1"
+            android:text="@string/Bonjour"
+            android:textColor="@color/color_black1"
+            android:textSize="10dp"
+            android:layout_centerHorizontal="true"></TextView>
+
+        <ImageView
+            android:id="@+id/tv_user1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pikachu"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/tv_content1"
+            android:layout_toStartOf="@+id/tv_content1"></ImageView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/tv_content3"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg2"
+            android:text="@string/Bonjour"
+            android:textColor="@color/color_black1"
+            android:textSize="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/tv_user2"></TextView>
+
+        <ImageView
+            android:id="@+id/tv_user2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/julien"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"></ImageView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="8">
+        <TextView
+            android:id="@+id/tv_content4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg1"
+            android:text="@string/parole"
+            android:textColor="@color/color_black1"
+            android:textSize="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"></TextView>
+
+        <ImageView
+            android:id="@+id/tv_user4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pikachu"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_content4"
+            android:layout_toStartOf="@+id/tv_content4"></ImageView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1.04"
+        android:id="@+id/chat4"></RelativeLayout>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_chat"
+        android:background="@drawable/bg_shape_white"
+        android:layout_alignParentBottom="true">
+    </EditText>
+
+
+
+</LinearLayout>
