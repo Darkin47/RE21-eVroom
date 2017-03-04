@@ -10,4 +10,4 @@ During this project we created an Android App concept from scratch, we designed 
 *   **Julien Grave** - *Developer* - [JulienGrv](https://github.com/JulienGrv)
 *   **Marc Loubion** - *Developer*
 
-See also the list of [contributors](https://github.com/eVroom-RE21-UTT/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/JulienGrv/eVroom-RE21-UTT/contributors) who participated in this project.
